@@ -16,11 +16,10 @@ const item = { hidden: { opacity: 0, scale: 0.9 }, show: { opacity: 1, scale: 1,
 
 export default function Slide09PakistanBenefits() {
   return (
-    <div className="slide-container slide-light" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+    <div className="slide-container slide-light" style={{ display: 'flex', flexDirection: 'column' }}>
       <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: '5px', background: 'var(--sp-red)' }} />
-      <div style={{ position: 'absolute', right: 0, top: 0, width: '300px', height: '100%', background: 'var(--sp-light-gray)', opacity: 0.5, zIndex: 0 }} />
 
-      <div style={{ position: 'relative', zIndex: 2, padding: '4rem 8rem' }}>
+      <div style={{ padding: '5rem 8rem', display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'center', position: 'relative', zIndex: 2 }}>
         <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} style={{ marginBottom: '3rem' }}>
           <p className="section-label" style={{ marginBottom: '0.75rem' }}>03 · Perks & Benefits</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '0.5rem' }}>
