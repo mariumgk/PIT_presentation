@@ -16,7 +16,7 @@ export default function Slide01Cover() {
       <div style={{
         position: 'absolute',
         top: 0, left: 0, right: 0, bottom: 0,
-        backgroundImage: 'url(/assets/bg.png)',
+        backgroundImage: `url(${import.meta.env.BASE_URL}assets/bg.png)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         zIndex: 0
@@ -120,7 +120,7 @@ export default function Slide01Cover() {
             }}>
               <div style={{ height: '1px', width: '60px', background: 'rgba(255,255,255,0.2)' }} />
               <img
-                src="/assets/sp-logo.png"
+                src={`${import.meta.env.BASE_URL}assets/sp-logo.png`}
                 alt="S&P Global Logo"
                 style={{ height: '40px', objectFit: 'contain' }}
                 onError={(e) => {
