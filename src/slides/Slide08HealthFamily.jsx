@@ -60,7 +60,7 @@ export default function Slide08HealthFamily() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
-              style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--sp-charcoal)', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
+              style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--sp-charcoal)', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
             >
               <span style={{ color: 'var(--sp-red)' }}>+</span> Health & Wellbeing
             </motion.h3>
@@ -74,7 +74,7 @@ export default function Slide08HealthFamily() {
                   style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}
                 >
                   <div style={{ width: '6px', height: '6px', background: 'var(--sp-red)', borderRadius: '50%', marginTop: '6px' }} />
-                  <p style={{ fontSize: '0.95rem', color: 'var(--sp-charcoal)', fontWeight: 500 }}>{item}</p>
+                  <p style={{ fontSize: '1.1rem', color: 'var(--sp-charcoal)', fontWeight: 500 }}>{item}</p>
                 </motion.div>
               ))}
             </div>
@@ -86,7 +86,7 @@ export default function Slide08HealthFamily() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
-              style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--sp-charcoal)', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
+              style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--sp-charcoal)', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
             >
               <span style={{ color: 'var(--sp-red)' }}>+</span> Leave & Family Support
             </motion.h3>
@@ -100,7 +100,7 @@ export default function Slide08HealthFamily() {
                   style={{ display: 'flex', alignItems: 'flex-start', gap: '0.75rem' }}
                 >
                   <div style={{ width: '6px', height: '6px', background: 'var(--sp-red)', borderRadius: '50%', marginTop: '6px' }} />
-                  <p style={{ fontSize: '0.95rem', color: 'var(--sp-charcoal)', fontWeight: 500 }}>{item}</p>
+                  <p style={{ fontSize: '1.1rem', color: 'var(--sp-charcoal)', fontWeight: 500 }}>{item}</p>
                 </motion.div>
               ))}
             </div>

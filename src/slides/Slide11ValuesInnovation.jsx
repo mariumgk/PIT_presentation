@@ -39,8 +39,8 @@ export default function Slide11ValuesInnovation() {
                   transition={{ delay: 0.2 + (i * 0.1) }}
                   className="value-card"
                 >
-                  <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--sp-charcoal)', marginBottom: '0.5rem' }}>{v.title}</h4>
-                  <p style={{ fontSize: '0.9rem', color: 'var(--sp-gray)', lineHeight: 1.5 }}>{v.desc}</p>
+                  <h4 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--sp-charcoal)', marginBottom: '0.5rem' }}>{v.title}</h4>
+                  <p style={{ fontSize: '1.05rem', color: 'var(--sp-gray)', lineHeight: 1.5 }}>{v.desc}</p>
                 </motion.div>
               ))}
             </div>
@@ -76,7 +76,7 @@ export default function Slide11ValuesInnovation() {
                   </div>
                   <div>
                     <h4 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--sp-charcoal)', marginBottom: '0.25rem' }}>{p.label}</h4>
-                    <p style={{ fontSize: '0.85rem', color: 'var(--sp-gray)', lineHeight: 1.5 }}>{p.text}</p>
+                    <p style={{ fontSize: '1rem', color: 'var(--sp-gray)', lineHeight: 1.5 }}>{p.text}</p>
                   </div>
                 </motion.div>
               ))}

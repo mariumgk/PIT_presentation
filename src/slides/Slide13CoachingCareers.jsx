@@ -18,18 +18,18 @@ export default function Slide13CoachingCareers() {
           
           <div style={{ flex: 1 }}>
             <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--sp-red)', marginBottom: '1.5rem' }}>Global Career Coaching</h3>
-            <p style={{ fontSize: '0.95rem', color: 'var(--sp-gray)', lineHeight: 1.6, marginBottom: '2rem' }}>
+            <p style={{ fontSize: '1.1rem', color: 'var(--sp-gray)', lineHeight: 1.6, marginBottom: '2rem' }}>
               Launched in 2020, our internal coaching program democratizes access to professional development, pairing employees with certified internal coaches to navigate career growth, leadership challenges, and transitions.
             </p>
             
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="pk-card" style={{ padding: '1.5rem', textAlign: 'left', borderBottom: 'none', borderLeft: '3px solid var(--sp-red)' }}>
                 <h4 style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--sp-charcoal)', marginBottom: '0.25rem', fontFamily: "'Playfair Display', serif" }}>4,091</h4>
-                <p style={{ fontSize: '0.75rem', color: 'var(--sp-gray)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Participants Since Launch</p>
+                <p style={{ fontSize: '0.9rem', color: 'var(--sp-gray)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Participants Since Launch</p>
               </motion.div>
               <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="pk-card" style={{ padding: '1.5rem', textAlign: 'left', borderBottom: 'none', borderLeft: '3px solid var(--sp-charcoal)' }}>
                 <h4 style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--sp-charcoal)', marginBottom: '0.25rem', fontFamily: "'Playfair Display', serif" }}>1,081</h4>
-                <p style={{ fontSize: '0.75rem', color: 'var(--sp-gray)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Participants in 2024</p>
+                <p style={{ fontSize: '0.9rem', color: 'var(--sp-gray)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Participants in 2024</p>
               </motion.div>
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function Slide13CoachingCareers() {
 
           <div style={{ flex: 1 }}>
             <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--sp-red)', marginBottom: '1.5rem' }}>Early Careers Programs</h3>
-            <p style={{ fontSize: '0.95rem', color: 'var(--sp-gray)', lineHeight: 1.6, marginBottom: '2rem' }}>
+            <p style={{ fontSize: '1.1rem', color: 'var(--sp-gray)', lineHeight: 1.6, marginBottom: '2rem' }}>
               We build our future leadership pipeline by investing heavily in emerging talent through structured internships and rotational programs across global regions.
             </p>
             
@@ -53,7 +53,7 @@ export default function Slide13CoachingCareers() {
                 <motion.div key={i} initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.5 + (i * 0.1) }} style={{ display: 'flex', alignItems: 'center', gap: '1rem', background: 'white', padding: '1rem 1.5rem', borderRadius: '2px', boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}>
                   <div style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--sp-red)', minWidth: '45px' }}>{item.count}</div>
                   <div style={{ width: '1px', height: '24px', background: 'var(--sp-light-gray)' }} />
-                  <p style={{ fontSize: '0.85rem', color: 'var(--sp-charcoal)', fontWeight: 500 }}>{item.text}</p>
+                  <p style={{ fontSize: '1rem', color: 'var(--sp-charcoal)', fontWeight: 500 }}>{item.text}</p>
                 </motion.div>
               ))}
             </div>

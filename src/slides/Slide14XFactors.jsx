@@ -46,8 +46,8 @@ export default function Slide14XFactors() {
                 <span style={{ fontSize: '1.25rem' }}>{f.icon}</span>
               </div>
               <div>
-                <h3 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'white', marginBottom: '0.35rem' }}>{f.title}</h3>
-                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.5 }}>{f.desc}</p>
+                <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'white', marginBottom: '0.35rem' }}>{f.title}</h3>
+                <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.5 }}>{f.desc}</p>
               </div>
             </motion.div>
           ))}

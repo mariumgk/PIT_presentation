@@ -70,7 +70,7 @@ export default function Slide04CompanyOverview() {
             borderRadius: '1px',
             marginBottom: '1.5rem',
           }}>
-            <p style={{ fontSize: '0.8rem', color: 'var(--sp-red)', fontWeight: 700, letterSpacing: '0.05em', fontStyle: 'italic' }}>
+            <p style={{ fontSize: '0.95rem', color: 'var(--sp-red)', fontWeight: 700, letterSpacing: '0.05em', fontStyle: 'italic' }}>
               "Advancing Essential Intelligence"
             </p>
           </div>
@@ -97,14 +97,14 @@ export default function Slide04CompanyOverview() {
           {bullets.map((b, i) => (
             <motion.div key={i} variants={item} style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', alignItems: 'flex-start' }}>
               <div style={{ width: '28px', height: '28px', background: 'rgba(227,0,15,0.1)', borderRadius: '2px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: '2px' }}>
-                <span style={{ fontSize: '0.65rem', fontWeight: 800, color: 'var(--sp-red)' }}>0{i + 1}</span>
+                <span style={{ fontSize: '0.8rem', fontWeight: 800, color: 'var(--sp-red)' }}>0{i + 1}</span>
               </div>
               <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.7 }}>{b}</p>
             </motion.div>
           ))}
 
           <motion.div variants={item} style={{ marginTop: '1rem', padding: '1.5rem', background: 'rgba(255,255,255,0.03)', borderLeft: '3px solid var(--sp-red)' }}>
-            <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', lineHeight: 1.7 }}>
+            <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.4)', lineHeight: 1.7 }}>
               S&P Global operates across five core divisions — Ratings, Market Intelligence, S&P Dow Jones Indices,
               Commodity Insights, and Mobility — providing an unparalleled breadth of financial intelligence.
             </p>

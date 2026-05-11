@@ -25,7 +25,7 @@ export default function Slide10WorkCulture() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3, duration: 0.6 }}>
-          <p style={{ fontSize: '1.1rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, marginBottom: '2.5rem' }}>
+          <p style={{ fontSize: '1.25rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, marginBottom: '2.5rem' }}>
             S&P Global's culture is anchored in inclusion, innovation, integrity, and collaboration, creating an environment where everyone can thrive.
           </p>
 
@@ -40,7 +40,7 @@ export default function Slide10WorkCulture() {
                 </div>
                 <div>
                   <h4 style={{ fontSize: '1rem', color: 'white', fontWeight: 700, marginBottom: '0.25rem' }}>{item.title}</h4>
-                  <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.5 }}>{item.desc}</p>
+                  <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.5 }}>{item.desc}</p>
                 </div>
               </motion.div>
             ))}
@@ -98,7 +98,7 @@ export default function Slide10WorkCulture() {
           </h3>
           <p style={{ fontSize: '1.2rem', color: 'rgba(255,255,255,0.5)', fontWeight: 600, marginBottom: '1rem' }}>out of 5</p>
           <div style={{ background: 'rgba(255,255,255,0.1)', padding: '0.4rem 1rem', borderRadius: '20px' }}>
-            <p style={{ fontSize: '0.75rem', color: 'white', fontWeight: 700, letterSpacing: '0.05em' }}>GLASSDOOR DEI RATING</p>
+            <p style={{ fontSize: '0.9rem', color: 'white', fontWeight: 700, letterSpacing: '0.05em' }}>GLASSDOOR DEI RATING</p>
           </div>
         </motion.div>
       </div>

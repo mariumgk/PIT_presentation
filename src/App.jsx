@@ -15,7 +15,7 @@ import Slide12ProfDevelopment from './slides/Slide12ProfDevelopment'
 import Slide13CoachingCareers from './slides/Slide13CoachingCareers'
 import Slide14XFactors from './slides/Slide14XFactors'
 import Slide15Conclusion from './slides/Slide15Conclusion'
-
+import Slide16References from './slides/Slide16References'
 const slides = [
   Slide01Cover,
   Slide02TOC,
@@ -32,6 +32,7 @@ const slides = [
   Slide13CoachingCareers,
   Slide14XFactors,
   Slide15Conclusion,
+  Slide16References,
 ]
 
 const TOTAL = slides.length
@@ -90,7 +91,7 @@ export default function App() {
 
   const SlideComponent = slides[current]
   const pad = (n) => String(n).padStart(2, '0')
-  const isDark = [0, 1, 2, 3, 5, 7, 9, 11, 13, 14].includes(current)
+  const isDark = [0, 1, 2, 3, 5, 7, 9, 11, 13, 14, 15].includes(current)
 
   return (
     <div style={{ width: '100vw', height: '100vh', position: 'relative', overflow: 'hidden', background: '#0d0d0d' }}>

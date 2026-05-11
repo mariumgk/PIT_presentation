@@ -56,8 +56,8 @@ export default function Slide02TOC() {
               <div className="toc-item">
                 <span className="toc-num">{s.num}</span>
                 <div style={{ flex: 1 }}>
-                  <p style={{ fontSize: '0.95rem', fontWeight: 600, color: 'white', marginBottom: '0.2rem' }}>{s.title}</p>
-                  <p style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.35)', letterSpacing: '0.04em' }}>{s.sub}</p>
+                  <p style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', marginBottom: '0.2rem' }}>{s.title}</p>
+                  <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.35)', letterSpacing: '0.04em' }}>{s.sub}</p>
                 </div>
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style={{ opacity: 0.3, flexShrink: 0 }}>
                   <path d="M2 6h8M6 2l4 4-4 4" stroke="white" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>

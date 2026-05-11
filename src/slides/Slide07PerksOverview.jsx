@@ -61,7 +61,7 @@ export default function Slide07PerksOverview() {
                 </div>
                 <div>
                   <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'white', marginBottom: '0.4rem' }}>{b.title}</h3>
-                  <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.5 }}>{b.desc}</p>
+                  <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.5 }}>{b.desc}</p>
                 </div>
               </div>
             </motion.div>

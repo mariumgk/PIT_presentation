@@ -38,8 +38,8 @@ export default function Slide09PakistanBenefits() {
               In addition to global programs, S&P Global offers localized benefits tailored to the specific needs, regulations, and market standards of our employees in Pakistan.
             </p>
             <div style={{ padding: '1.5rem', background: 'white', borderLeft: '3px solid var(--sp-red)', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
-              <h4 style={{ fontSize: '0.9rem', fontWeight: 700, color: 'var(--sp-charcoal)', marginBottom: '0.5rem' }}>Comprehensive Healthcare</h4>
-              <p style={{ fontSize: '0.85rem', color: 'var(--sp-gray)' }}>Full medical insurance coverage provided for employees and eligible dependents.</p>
+              <h4 style={{ fontSize: '1.05rem', fontWeight: 700, color: 'var(--sp-charcoal)', marginBottom: '0.5rem' }}>Comprehensive Healthcare</h4>
+              <p style={{ fontSize: '1rem', color: 'var(--sp-gray)' }}>Full medical insurance coverage provided for employees and eligible dependents.</p>
             </div>
           </motion.div>
 
@@ -59,8 +59,8 @@ export default function Slide09PakistanBenefits() {
                 <h3 style={{ fontSize: '2.5rem', fontWeight: 800, color: 'var(--sp-red)', marginBottom: '0.25rem', fontFamily: "'Playfair Display', serif" }}>
                   {b.value}
                 </h3>
-                <h4 style={{ fontSize: '0.95rem', fontWeight: 700, color: 'var(--sp-charcoal)', marginBottom: '0.25rem' }}>{b.label}</h4>
-                <p style={{ fontSize: '0.75rem', color: 'var(--sp-gray)' }}>{b.sub}</p>
+                <h4 style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--sp-charcoal)', marginBottom: '0.25rem' }}>{b.label}</h4>
+                <p style={{ fontSize: '0.9rem', color: 'var(--sp-gray)' }}>{b.sub}</p>
               </motion.div>
             ))}
           </motion.div>

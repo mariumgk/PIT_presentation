@@ -82,7 +82,7 @@ export default function Slide01Cover() {
         <motion.div variants={container} initial="hidden" animate="show">
           <motion.div variants={item}>
             <p className="section-label" style={{ marginBottom: '1rem' }}>CS-392 Project · Team Catalyst</p>
-            <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.6)', marginBottom: '2rem' }}>
+            <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.6)', marginBottom: '2rem' }}>
               Members: Marium Imran, Momina Najeeb, Unaiza Babur, Wafa Abbas
             </p>
           </motion.div>
@@ -153,12 +153,12 @@ export default function Slide01Cover() {
         justifyContent: 'space-between',
         alignItems: 'center',
       }}>
-        <p style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.25)', letterSpacing: '0.1em' }}>
+        <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.25)', letterSpacing: '0.1em' }}>
 
         </p>
         <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>
           <div className="pulse-dot" />
-          <p style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.25)', letterSpacing: '0.1em' }}>
+          <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.25)', letterSpacing: '0.1em' }}>
 
           </p>
         </div>

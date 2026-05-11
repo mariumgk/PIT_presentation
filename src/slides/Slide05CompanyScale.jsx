@@ -31,7 +31,7 @@ function KpiCard({ number, suffix, text, delay }) {
         {count.toLocaleString()}{suffix}
       </h3>
       <div style={{ width: '30px', height: '2px', background: 'var(--sp-red)', marginBottom: '1rem' }} />
-      <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.5, fontWeight: 500 }}>{text}</p>
+      <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.6)', lineHeight: 1.5, fontWeight: 500 }}>{text}</p>
     </motion.div>
   )
 }
@@ -58,7 +58,7 @@ export default function Slide05CompanyScale() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8, duration: 0.6 }}>
-          <h3 style={{ fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'rgba(255,255,255,0.4)', marginBottom: '1rem' }}>
+          <h3 style={{ fontSize: '1rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'rgba(255,255,255,0.4)', marginBottom: '1rem' }}>
             Core Business Areas
           </h3>
           <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
@@ -73,7 +73,7 @@ export default function Slide05CompanyScale() {
                   border: '1px solid rgba(255,255,255,0.1)',
                   padding: '0.75rem 1.25rem',
                   borderRadius: '2px',
-                  fontSize: '0.85rem',
+                  fontSize: '1rem',
                   fontWeight: 600,
                   color: 'white',
                   display: 'flex',

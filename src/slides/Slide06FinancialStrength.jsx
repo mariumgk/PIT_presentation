@@ -128,7 +128,7 @@ export default function Slide06FinancialStrength() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3, duration: 0.6 }}>
-          <p style={{ fontSize: '1.1rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, marginBottom: '2.5rem' }}>
+          <p style={{ fontSize: '1.25rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, marginBottom: '2.5rem' }}>
             S&P Global's robust financial performance enables continuous investment in essential intelligence, advanced technology, and employee wellbeing.
           </p>
 
@@ -142,7 +142,7 @@ export default function Slide06FinancialStrength() {
                 <div style={{ width: '40px', height: '40px', background: 'rgba(255,255,255,0.05)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.2rem', border: '1px solid rgba(255,255,255,0.1)' }}>
                   {item.icon}
                 </div>
-                <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.8)', fontWeight: 500 }}>{item.text}</p>
+                <p style={{ fontSize: '1.1rem', color: 'rgba(255,255,255,0.8)', fontWeight: 500 }}>{item.text}</p>
               </motion.div>
             ))}
           </div>
@@ -174,7 +174,7 @@ export default function Slide06FinancialStrength() {
           }}
         >
           <h3 style={{ fontSize: '1.2rem', fontWeight: 700, color: 'white', marginBottom: '0.5rem', textAlign: 'center' }}>Global Revenue</h3>
-          <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', textAlign: 'center', marginBottom: '2rem' }}>2024 vs 2025 Estimates</p>
+          <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.4)', textAlign: 'center', marginBottom: '2rem' }}>2024 vs 2025 Estimates</p>
           <div ref={chartRef} style={{ display: 'flex', justifyContent: 'center' }} />
         </motion.div>
       </div>

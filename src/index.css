@@ -136,7 +136,7 @@ html, body, #root {
   display: inline-flex;
   align-items: center;
   padding: 0.35rem 0.9rem;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -154,7 +154,7 @@ html, body, #root {
 
 /* Section label */
 .section-label {
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: 700;
@@ -170,14 +170,14 @@ html, body, #root {
 
 /* Slide number chip */
 .slide-chip {
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   letter-spacing: 0.15em;
   font-weight: 700;
   color: rgba(255,255,255,0.35);
 }
 
 .slide-chip-light {
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   letter-spacing: 0.15em;
   font-weight: 700;
   color: rgba(0,0,0,0.3);
@@ -210,7 +210,7 @@ html, body, #root {
 }
 .toc-item:last-child { border-bottom: none; }
 .toc-num {
-  font-size: 0.65rem;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   color: var(--sp-red);

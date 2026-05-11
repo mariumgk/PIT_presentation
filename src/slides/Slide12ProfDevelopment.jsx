@@ -27,7 +27,7 @@ export default function Slide12ProfDevelopment() {
         </motion.div>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3, duration: 0.6 }}>
-          <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, marginBottom: '2.5rem' }}>
+          <p style={{ fontSize: '1.2rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, marginBottom: '2.5rem' }}>
             S&P Global views learning as a strategic investment. With initiatives like the <strong>Spark AI Academy</strong> (with Accenture) and the <strong>Spark Assist GenAI platform</strong>, there was 48% active employee usage by year-end. Microlearning platforms like Eskalera further enhance continuous learning.
           </p>
         </motion.div>
@@ -54,7 +54,7 @@ export default function Slide12ProfDevelopment() {
             borderRadius: '2px',
           }}
         >
-          <h3 style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'rgba(255,255,255,0.4)', marginBottom: '1.5rem' }}>
+          <h3 style={{ fontSize: '1.05rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'rgba(255,255,255,0.4)', marginBottom: '1.5rem' }}>
             Essential Tech Capabilities
           </h3>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '3rem' }}>
@@ -65,14 +65,14 @@ export default function Slide12ProfDevelopment() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 + (i * 0.05) }}
                 className="tag tag-dark"
-                style={{ fontSize: '0.85rem', padding: '0.5rem 1rem', border: '1px solid rgba(227,0,15,0.4)', color: 'white', background: 'rgba(227,0,15,0.1)' }}
+                style={{ fontSize: '1rem', padding: '0.5rem 1rem', border: '1px solid rgba(227,0,15,0.4)', color: 'white', background: 'rgba(227,0,15,0.1)' }}
               >
                 {skill}
               </motion.div>
             ))}
           </div>
 
-          <h3 style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'rgba(255,255,255,0.4)', marginBottom: '1.5rem' }}>
+          <h3 style={{ fontSize: '1.05rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'rgba(255,255,255,0.4)', marginBottom: '1.5rem' }}>
             Core Business Skills
           </h3>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
@@ -83,7 +83,7 @@ export default function Slide12ProfDevelopment() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 + (i * 0.05) }}
                 className="tag tag-dark"
-                style={{ fontSize: '0.85rem', padding: '0.5rem 1rem' }}
+                style={{ fontSize: '1rem', padding: '0.5rem 1rem' }}
               >
                 {skill}
               </motion.div>

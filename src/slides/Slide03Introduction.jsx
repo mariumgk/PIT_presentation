@@ -73,7 +73,7 @@ export default function Slide03Introduction() {
               }}>
                 <div style={{ marginBottom: '1.25rem' }}>{p.icon}</div>
                 <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'white', marginBottom: '0.75rem' }}>{p.heading}</h3>
-                <p style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.7 }}>{p.body}</p>
+                <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.7 }}>{p.body}</p>
               </div>
             </motion.div>
           ))}
@@ -86,7 +86,7 @@ export default function Slide03Introduction() {
           style={{ marginTop: '2.5rem', paddingTop: '2rem', borderTop: '1px solid rgba(255,255,255,0.07)' }}
         >
           <p style={{
-            fontSize: '0.85rem',
+            fontSize: '1rem',
             color: 'rgba(255,255,255,0.3)',
             fontStyle: 'italic',
             maxWidth: '600px',

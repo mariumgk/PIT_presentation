@@ -219,3 +219,11 @@ S&P Global’s competitive advantage in talent retention lies in the integration
 
 References:
 Use compact references from the original PDF/report.
+https://www.glassdoor.com/Culture/S-and-P-Global-DEI-E1259396.htm
+https://www.spglobal.com/en/explore-s-p-global/careers/our-culture
+https://www.spglobal.com/en/who-we-are/culture-engagement
+https://www.spglobal.com/en/who-we-are/about-sp-global
+https://spgbenefits.com/ourbenefits?country=Pakistan
+https://www.getsmartresume.com/article/sp-global-graduate-program
+https://www.spglobal.com/en/who-we-are/corporate-responsibility/impact-report
+https://www.indeed.com/cmp/S&P-Global/reviews?ftopic=paybenefits
